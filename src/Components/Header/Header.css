@@ -1,0 +1,64 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 600ms;
+  padding: 40px 100px;
+  z-index: 10000;
+  height: 200px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0);
+  transition: all 0.5s ease-in-out;
+}
+
+header .logo {
+  position: relative;
+  color: black;
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: capitalize;
+  transition: 600ms;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+}
+
+header ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 500px;
+  transition: 600ms;
+  text-transform: capitalize;
+}
+
+.navbar-sticky {
+  border-color: rgba(0, 0, 0, 1);
+  height: 50px;
+  transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+}
