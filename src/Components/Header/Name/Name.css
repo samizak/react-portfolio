@@ -1,0 +1,41 @@
+.logo-space:before {
+  content: "\00a0";
+}
+.logo-emphasize {
+  color: red;
+}
+
+.logo-normal {
+  overflow: hidden;
+}
+
+/* .logo {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.logo:hover {
+  width: auto;
+} */
+
+.logo .rest-inner {
+  margin-left: -200px;
+  opacity: 0;
+  transition: margin 500ms ease-in-out, opacity 500ms linear;
+}
+
+.logo:hover .rest-inner {
+  margin-left: 0;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 500px) {
+  .logo .rest-inner {
+    margin-left: -200px;
+    opacity: 0;
+  }
+
+  .logo div {
+    font-size: 0.8em;
+  }
+}

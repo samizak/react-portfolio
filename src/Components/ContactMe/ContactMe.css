@@ -1,0 +1,65 @@
+.contact-me {
+  position: relative;
+  margin-top: 200px;
+  padding-top: 8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-me form {
+}
+
+form input,
+textarea {
+  font-size: 1em;
+}
+
+.eDrgDA {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid rgb(108, 99, 255);
+  padding: 0.8rem 1rem;
+  border-radius: 7px;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease 0s;
+}
+
+.faEBBo {
+  width: 100%;
+  min-height: 200px;
+  box-sizing: border-box;
+  border: 2px solid rgb(108, 99, 255);
+  padding: 0.8rem 1rem;
+  border-radius: 7px;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease 0s;
+  resize: none;
+}
+
+.button-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.frLzte {
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  appearance: none;
+  user-select: none;
+  color: rgb(255, 255, 255);
+  background: none;
+  width: 150px;
+  height: 50px;
+  color: rgb(108, 99, 255);
+  border: 3px solid #8c82fc;
+  transition: all 0.35s;
+}
+
+.frLzte:hover {
+  color: rgb(255, 255, 255);
+  background: #8c82fc;
+}
