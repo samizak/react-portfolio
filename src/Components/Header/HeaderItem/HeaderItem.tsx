@@ -22,6 +22,20 @@ export default function HeaderItem(props: {
                     e.stopPropagation();
                     e.nativeEvent.stopImmediatePropagation();
 
+                    // Code below fixes padding problems with elements fading-in on scroll.
+                    // Get the href
+                    const _href = (e.target as any).href.split("#")[1];
+                    // Get the element using href and check if it is visible
+                    const isVisible = document
+                      .getElementById(_href)
+                      ?.parentElement?.className.includes("is-visible");
+
+                    // Only add scroll-padding-top if element is not visible yet
+                    document.documentElement.style.setProperty(
+                      "--scroll-padding",
+                      isVisible ? "0" : "20vh"
+                    );
+
                     return props.setIsHeaderSelected({
                       ...props.default_selectedHeader,
                       [item]: true,
