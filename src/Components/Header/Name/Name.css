@@ -1,22 +1,25 @@
 .logo-space:before {
   content: "\00a0";
 }
+
 .logo-emphasize {
-  color: red;
+  color: rgb(51, 219, 197);
+  font-size: larger;
+  /* font-weight: lighter; */
 }
 
 .logo-normal {
   overflow: hidden;
+  font-weight: lighter;
 }
 
-/* .logo {
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
+/* 
+* Make the '{' and '}' lighter
+*/
+.logo div:first-child,
+.logo div:last-child {
+  font-weight: lighter;
 }
-.logo:hover {
-  width: auto;
-} */
 
 .logo .rest-inner {
   margin-left: -200px;

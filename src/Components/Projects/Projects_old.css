@@ -2,6 +2,7 @@
   position: relative;
   margin-top: 200px;
   padding-top: 8rem;
+  color: var(--textColor);
   /* display: flex;
   align-items: space-between;
   justify-content: space-between;

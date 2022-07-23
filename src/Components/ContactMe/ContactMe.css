@@ -2,7 +2,7 @@
   position: relative;
   margin-top: 200px;
   padding-top: 8rem;
-
+  color: var(--textColor);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,16 +53,15 @@ textarea {
   border: none;
   appearance: none;
   user-select: none;
-  color: rgb(255, 255, 255);
   background: none;
   width: 150px;
   height: 50px;
-  color: rgb(108, 99, 255);
-  border: 3px solid #8c82fc;
+  color: white;
+  border: 3px solid var(--buttonColor);
   transition: all 0.35s;
 }
 
 .frLzte:hover {
-  color: rgb(255, 255, 255);
-  background: #8c82fc;
+  background: var(--buttonColor);
+  color: black;
 }

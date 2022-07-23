@@ -28,32 +28,34 @@ export default function Header() {
 
   return (
     <>
-      <header className={"qIYQfQ" + (stickyNavbar ? " navbar-sticky" : "")}>
-        <Name />
-        <ul className="header-list">
-          <HeaderItem
-            isHeaderSelected={isHeaderSelected}
-            setIsHeaderSelected={setIsHeaderSelected}
-            default_selectedHeader={default_selectedHeader}
-          />
-        </ul>
-
-        <HamburgerMenu isActive={isActive} setIsActive={setIsActive} />
-
-        <div
-          className={
-            "header-menu" +
-            (isActive ? " is-active" : "") +
-            (stickyNavbar ? " navbar-sticky-test" : "")
-          }
-        >
-          <ul className="compact-header-list">
+      <header className={stickyNavbar ? " navbar-sticky" : ""}>
+        <div className="qIYQfQ">
+          <Name />
+          <ul className="header-list">
             <HeaderItem
               isHeaderSelected={isHeaderSelected}
               setIsHeaderSelected={setIsHeaderSelected}
               default_selectedHeader={default_selectedHeader}
             />
           </ul>
+
+          <HamburgerMenu isActive={isActive} setIsActive={setIsActive} />
+
+          <div
+            className={
+              "header-menu" +
+              (isActive ? " is-active" : "") +
+              (stickyNavbar ? " navbar-sticky-test" : "")
+            }
+          >
+            <ul className="compact-header-list">
+              <HeaderItem
+                isHeaderSelected={isHeaderSelected}
+                setIsHeaderSelected={setIsHeaderSelected}
+                default_selectedHeader={default_selectedHeader}
+              />
+            </ul>
+          </div>
         </div>
       </header>
     </>

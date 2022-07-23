@@ -14,7 +14,9 @@ export default function Skills() {
   return (
     <>
       <section id="skills" className="skills qIYQfQ">
-        <h1>Skills</h1>
+        <div className="dashes-to-title">
+          <h2>Skills</h2>
+        </div>
 
         <div className="skills-container">
           <div className="skills-inner">

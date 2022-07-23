@@ -36,6 +36,9 @@ function FadeInSection(props: any) {
 function App() {
   return (
     <>
+      {/* <div className="curve-container">
+        <div className="curve"></div>
+      </div> */}
       <Header />
 
       <FadeInSection>

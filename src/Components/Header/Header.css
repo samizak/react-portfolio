@@ -5,19 +5,24 @@ header {
   transform: translateX(-50%);
   overflow: hidden;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   z-index: 10000;
   height: 200px;
   border-bottom: 3px solid rgba(0, 0, 0, 0);
   transition: all 0.5s ease-in-out;
-  background-color: white;
+  background-color: var(--backgroundColor);
+}
+
+header div.qIYQfQ {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 
 header .logo {
   position: relative;
-  color: black;
+  color: var(--textColor);
   text-decoration: none;
   font-size: 2em;
   font-weight: 700;
@@ -48,7 +53,7 @@ header .logo a div {
   position: relative;
   margin: 0 15px;
   text-decoration: none;
-  color: black;
+  color: var(--textColor);
   text-transform: uppercase;
   letter-spacing: 0.15em;
   font-weight: 500px;
@@ -69,7 +74,7 @@ header .logo a div {
 .compact-header-list a {
   position: relative;
   text-decoration: none;
-  color: black;
+  color: var(--textColor);
   text-transform: uppercase;
   letter-spacing: 0.15em;
   font-weight: 500px;
@@ -82,7 +87,7 @@ header .logo a div {
 }
 
 .header-menu {
-  background-color: white;
+  background-color: var(--backgroundColor);
   width: 100%;
   height: 0;
   position: absolute;
@@ -97,7 +102,7 @@ header .logo a div {
 
 .header-menu.is-active {
   display: block;
-  height: 550px;
+  height: 450px;
   margin-top: auto;
 }
 
@@ -119,7 +124,7 @@ header .logo a div {
     position: relative;
     margin: auto;
     text-decoration: none;
-    color: black;
+    color: var(--textColor);
     text-transform: uppercase;
     letter-spacing: 0;
     font-weight: 500px;

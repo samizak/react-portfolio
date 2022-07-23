@@ -3,7 +3,6 @@
   position: relative;
   flex-direction: column;
   justify-content: center;
-  /* left: 40px; */
   height: 100px;
   width: 70px;
   border: 5px solid transparent;
@@ -18,7 +17,7 @@
   width: 35px;
   display: block;
   margin: 3px auto;
-  background-color: black;
+  background-color: white;
   border-radius: 10px;
   transition: 0.4s;
 }

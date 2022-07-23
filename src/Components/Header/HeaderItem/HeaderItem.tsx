@@ -17,7 +17,7 @@ export default function HeaderItem(props: {
                     "underline" +
                     ((props.isHeaderSelected as any)[item] ? " selected" : "")
                   }
-                  href={"#" + item}
+                  href={"#" + (item !== "home" ? item : "")}
                   onClick={(e) => {
                     e.stopPropagation();
                     e.nativeEvent.stopImmediatePropagation();
