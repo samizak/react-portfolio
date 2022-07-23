@@ -25,7 +25,7 @@ export default function Projects() {
                 a React application that tracks the value of your NFT portfolio
                 and shows it both in Ethereum and in fiat currency.
               </p>
-              <ul className="project-tech-list">
+              <ul className="project-tech-list underline-tech-list">
                 <li>React</li>
                 <li>Typescript</li>
                 <li>NodeJS</li>
