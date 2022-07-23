@@ -9,7 +9,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding: var(--scroll-padding, 20vh);
+  scroll-padding-top: var(--scroll-padding, 20vh);
 }
 
 body {

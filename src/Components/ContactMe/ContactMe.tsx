@@ -18,6 +18,7 @@ export default function ContactMe() {
             console.log(messageElement.current);
           }}
         >
+          <h1>Contact Me</h1>
           <input
             type="text"
             ref={fullNameElement}

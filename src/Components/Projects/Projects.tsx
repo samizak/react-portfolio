@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <>
       <section id="projects" className="projects qIYQfQ">
-        <h2>Project Highlights</h2>
+        <h2>Projects</h2>
         <div className="project-grid">
           <ProjectCard
             title="Todo App"
