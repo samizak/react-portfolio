@@ -2,10 +2,7 @@
   position: relative;
   margin-top: 200px;
   padding-top: 8rem;
-  /* display: flex; */
-  /* align-items: left; */
-  /* justify-content: center;
-  flex-direction: column; */
+  color: var(--textColor);
 }
 
 .skills h1 {
@@ -49,7 +46,7 @@
 
 .skill-icon {
   border-radius: 50%;
-  background-color: #e8f8f8;
+  background-color: white;
   height: 200px;
   width: 200px;
 
@@ -61,18 +58,7 @@
   transition: background-color 300ms ease-in-out;
 }
 
-.skill-icon:hover {
-  background-color: #ade6e6;
-}
-
 @media (max-width: 600px) {
-  /* .skills-container {
-    display: grid;
-    grid-column-gap: 50px;
-    grid-template-columns: repeat(auto-fill, 100%);
-    justify-content: center;
-  } */
-
   .skills-inner svg {
     height: 50px;
     width: 50px;

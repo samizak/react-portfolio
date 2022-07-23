@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
+:root {
+  --backgroundColor: #0a192f;
+  --textColor: white;
+  --buttonColor: rgb(51, 219, 197);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,8 +19,8 @@ html {
 }
 
 body {
-  background-color: white;
-  min-height: 200vh;
+  background-color: var(--backgroundColor);
+  /* min-height: 200vh; */
 }
 
 .underline {
@@ -28,7 +34,7 @@ body {
   display: block;
   height: 2px;
   left: 50%;
-  background: black;
+  background: var(--textColor);
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -57,18 +63,24 @@ body {
 }
 
 .home {
-  position: relative;
-  margin-top: 200px;
-  padding-top: 8rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  min-height: 100vh;
+}
+
+.inner-home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
 }
 
 .home h1 {
   margin-bottom: 2rem;
   font-size: 36pt;
-  color: black;
+  color: var(--textColor);
 }
 
 .home h2 {
@@ -83,20 +95,30 @@ body {
   margin-bottom: 2.5rem;
   font-size: 32pt;
   font-weight: normal;
-  color: black;
+  color: var(--textColor);
 }
 
 .contact-me-button {
   cursor: pointer;
-  border-radius: 3px;
-  padding: 0.7rem 2.5rem;
+  border-radius: 5px;
   border: none;
   appearance: none;
   user-select: none;
-  color: rgb(255, 255, 255);
-  background: rgb(108, 99, 255);
+  background: none;
   text-decoration: none;
-  position: relative;
+  width: 150px;
+  height: 50px;
+  color: white;
+  border: 3px solid var(--buttonColor);
+  transition: all 0.35s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-me-button:hover {
+  background: var(--buttonColor);
+  color: black;
 }
 
 /* Disable default black outline on focus */
@@ -109,11 +131,116 @@ body {
 .fade-in-section {
   opacity: 0;
   transform: translateY(20vh);
-  transition: opacity 1200ms ease-out, transform 600ms ease-out;
+  transition: opacity 1.5s ease-out, transform 0.6s ease-out;
   will-change: opacity, transform, visibility;
+}
+
+@media (max-height: 800px) {
+  .fade-in-section {
+    transform: translateY(10vh);
+  }
 }
 
 .fade-in-section.is-visible {
   opacity: 1;
   transform: none;
+}
+
+/* 
+
+
+
+
+*/
+
+.curve-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding-top: 100px;
+  background: #3c31dd;
+}
+
+.curve {
+  position: absolute;
+  height: 250px;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+.curve::before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  transform: translate(85%, 60%);
+  background-color: hsl(216, 21%, 16%);
+}
+
+.curve::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: #3c31dd;
+  transform: translate(-4%, 40%);
+  z-index: -1;
+}
+
+/* 
+* Add dashes to titles
+*/
+
+.dashes-to-title {
+  align-items: center;
+  display: flex;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.dashes-to-title h2 {
+  order: 2;
+  text-align: center;
+  font-size: 36pt;
+  margin: auto;
+}
+
+.dashes-to-title:before {
+  flex-grow: 1;
+  order: 1;
+  margin-right: 0.5em;
+}
+
+.dashes-to-title:after {
+  flex-grow: 1;
+  order: 3;
+  margin-left: 0.5em;
+}
+
+.dashes-to-title:after,
+.dashes-to-title:before {
+  background-color: #0bd8a2;
+  content: "";
+  height: 0.1em;
+}
+
+@media only screen and (min-width: 40rem) {
+  .dashes-to-title:before {
+    margin-right: 2rem;
+  }
+
+  .dashes-to-title::after {
+    margin-left: 2rem;
+  }
+
+  .dashes-to-title {
+    margin-bottom: 100px;
+  }
 }

@@ -1,42 +1,53 @@
-import ProjectCard from "./ProjectCard";
-import "./Projects.css";
+// import ProjectCard from "./ProjectCard_old";
+import "./Project.css";
+import nft_portfolio_image from "../../Images/nft-portfolio-tracker-showcase.png";
+import ExternalLink from "../SVGs/ExternalLink";
 
 export default function Projects() {
   return (
     <>
       <section id="projects" className="projects qIYQfQ">
-        <h2>Projects</h2>
+        <div className="dashes-to-title">
+          <h2>Projects</h2>
+        </div>
+
         <div className="project-grid">
-          <ProjectCard
-            title="Todo App"
-            description="short description of the project here"
-            imageUrl="https://user-images.githubusercontent.com/30938455/159538929-06c354c3-f5a4-4c53-8a95-6d6ddb43e6a8.gif"
-          />
-          <ProjectCard
-            title="Random Password Generator"
-            description="short description of the project here"
-            imageUrl="https://user-images.githubusercontent.com/30938455/180267897-6c371c44-1ba7-4699-bf8e-1dd47670d3d9.gif"
-          />
-          <ProjectCard
-            title="NFT Portfolio Tracker"
-            description="short description of the project here"
-            imageUrl="https://user-images.githubusercontent.com/30938455/180270516-ca1aa46d-8a10-45a1-a2b7-2bc60eadc7a8.gif"
-          />
-          <ProjectCard
-            title=""
-            description="short description of the project here"
-            imageUrl=""
-          />
-          <ProjectCard
-            title=""
-            description="short description of the project here"
-            imageUrl=""
-          />
-          <ProjectCard
-            title=""
-            description="short description of the project here"
-            imageUrl=""
-          />
+          <div className="project-container">
+            <div className="project-image-container">
+              <div className="project-image-container-inner">
+                <img src={nft_portfolio_image} />
+              </div>
+            </div>
+
+            <div className="project-contents">
+              <h3>NFT Portfolio Tracker</h3>
+              <p>
+                a React application that tracks the value of your NFT portfolio
+                and shows it both in Ethereum and in fiat currency.
+              </p>
+              <ul className="project-tech-list">
+                <li>React</li>
+                <li>Typescript</li>
+                <li>NodeJS</li>
+                <li>Express</li>
+                <li>OpenSea API</li>
+                <li>Coingecko API</li>
+                <li>Web3.js</li>
+                <li>Heroku</li>
+              </ul>
+
+              <div className="project-links">
+                <a
+                  href="https://sz-nft-portfolio-tracker.herokuapp.com/"
+                  title="External Link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <ExternalLink />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>
