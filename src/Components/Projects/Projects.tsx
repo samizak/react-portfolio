@@ -20,7 +20,7 @@ export default function Projects() {
           <div className="project-container">
             <div className="project-image-container">
               <div className="project-image-container-inner">
-                <img src={nft_portfolio_image} />
+                <img src={nft_portfolio_image} alt="NFT Portfolio Tracker" />
               </div>
             </div>
 
@@ -35,15 +35,25 @@ export default function Projects() {
                 </a>
               </h3>
               <p>
-                a React application that tracks the value of your NFT portfolio
+                A React application that tracks the value of your NFT portfolio
                 and displays the total portfolio value in Ethereum and in fiat
-                currency.
+                currency. The OpenSea API was used for fetching NFTs, Web3.js
+                was used for validating Ethereum addresses or Ethereum Name
+                Services (ENS) and the Coingecko API was used for fetching the
+                Ethereum price in different fiat currencies.
+                <br></br>
+                <br></br>
+                <p className="highlight">
+                  This project is being used privately in the wild. Source code
+                  and demos can be shown upon request!
+                </p>
               </p>
               <ul className="project-tech-list underline-tech-list">
                 <li>React</li>
                 <li>Typescript</li>
                 <li>HTML</li>
                 <li>CSS</li>
+                <li>Material UI</li>
                 <li>NodeJS</li>
                 <li>Express</li>
                 <li>OpenSea API</li>
@@ -68,7 +78,10 @@ export default function Projects() {
           <div className="project-container">
             <div className="project-image-container">
               <div className="project-image-container-inner">
-                <img src={opensea_nft_floor_price} />
+                <img
+                  src={opensea_nft_floor_price}
+                  alt="OpenSea NFT Floor Price Tracker"
+                />
               </div>
             </div>
 
@@ -83,8 +96,18 @@ export default function Projects() {
                 </a>
               </h3>
               <p>
-                a React application that lets you retrieve the floor price of
-                the queried NFT on OpenSea
+                A React application that lets you retrieve the floor price of
+                the queried NFT on OpenSea. Puppeteer was used for scraping the
+                Floor NFT (The cheapest NFT for sale) on OpenSea, the OpenSea
+                API was used for fetching additional information about the NFT
+                and the Coingecko API was used for fetching the Ethereum price
+                in different fiat currencies.
+                <br></br>
+                <br></br>
+                <p className="highlight">
+                  This project is being used privately in the wild. Source code
+                  and demos can be shown upon request!
+                </p>
               </p>
               <ul className="project-tech-list underline-tech-list">
                 <li>React</li>
@@ -116,7 +139,7 @@ export default function Projects() {
           <div className="project-container project-portfolio">
             <div className="project-image-container">
               <div className="project-image-container-inner">
-                <img src={portfolio} />
+                <img src={portfolio} alt="React Portfolio Website" />
               </div>
             </div>
 
@@ -130,7 +153,11 @@ export default function Projects() {
                   React Portfolio Website
                 </a>
               </h3>
-              <p>My current Portfolio website</p>
+              <p>
+                My current Portfolio website created in React using pure CSS and
+                HTML. The website was created purely using HTML, CSS and
+                Typescript, without the use of any additional packages.
+              </p>
               <ul className="project-tech-list underline-tech-list">
                 <li>React</li>
                 <li>Typescript</li>
@@ -141,7 +168,7 @@ export default function Projects() {
 
               <div className="project-links">
                 <a
-                  href="https://github.com/samizak/react-password-generator"
+                  href="https://github.com/samizak/react-portfolio"
                   title="Github Link"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -164,7 +191,7 @@ export default function Projects() {
           <div className="project-container">
             <div className="project-image-container">
               <div className="project-image-container-inner">
-                <img src={""} />
+                <img src={""} alt="URL Shortener" />
               </div>
             </div>
 
@@ -179,8 +206,8 @@ export default function Projects() {
                 </a>
               </h3>
               <p>
-                A URL Shortener Service created using React, to shorten long
-                URLs
+                A URL shortener service designed in React that uses hooks to
+                shrink lengthy URLs.
               </p>
               <ul className="project-tech-list underline-tech-list">
                 <li>React</li>
@@ -218,7 +245,7 @@ export default function Projects() {
           <div className="project-container">
             <div className="project-image-container">
               <div className="project-image-container-inner">
-                <img src={password_generator} />
+                <img src={password_generator} alt="Random Password Generator" />
               </div>
             </div>
 
@@ -233,8 +260,8 @@ export default function Projects() {
                 </a>
               </h3>
               <p>
-                A URL Shortener Service created using React, to shorten long
-                URLs
+                A password generator app that uses React with hooks to generate
+                secure, random passwords.
               </p>
               <ul className="project-tech-list underline-tech-list">
                 <li>React</li>
@@ -269,7 +296,7 @@ export default function Projects() {
           <div className="project-container">
             <div className="project-image-container">
               <div className="project-image-container-inner">
-                <img src={todo_app} />
+                <img src={todo_app} alt="To Do App" />
               </div>
             </div>
 
@@ -283,7 +310,10 @@ export default function Projects() {
                   To Do App
                 </a>
               </h3>
-              <p>A To Do App created with React</p>
+              <p>
+                A To Do App designed for staying organized with simplicity in
+                mind. The website was created with React using hooks.
+              </p>
               <ul className="project-tech-list underline-tech-list">
                 <li>React</li>
                 <li>Typescript</li>
