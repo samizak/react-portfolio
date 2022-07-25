@@ -45,10 +45,16 @@ function App() {
         <section id="home" className="home qIYQfQ ">
           <div className="inner-home">
             <h1>Hello World!</h1>
-            <h2>I'm Sami, a full-stack software engineer</h2>
-            <a href="#contact" className="contact-me-button">
-              Contact Me
-            </a>
+            <h2>I'm Sami Zakir Ahmed, a Full Stack Developer</h2>
+
+            <div className="home-buttons">
+              <a href="#contact" className="contact-me-button">
+                Resume
+              </a>
+              <a href="#contact" className="contact-me-button">
+                Contact Me
+              </a>
+            </div>
           </div>
         </section>
       </FadeInSection>
