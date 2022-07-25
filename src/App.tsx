@@ -47,7 +47,7 @@ function App() {
             <h1>
               Hello World<span className="wave">👋</span>!
             </h1>
-            <h2>I'm Sami Zakir Ahmed, a Full Stack Developer</h2>
+            <h2>I'm Sami Zakir Ahmed, a Full Stack Software Engineer</h2>
 
             <div className="home-buttons">
               <a href="#contact" className="contact-me-button">

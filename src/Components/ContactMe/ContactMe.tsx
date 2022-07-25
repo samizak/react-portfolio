@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import "./ContactMe.css";
+import "../../App.css";
 
 export default function ContactMe() {
   const fullNameElement = useRef(null);
@@ -9,6 +10,10 @@ export default function ContactMe() {
   return (
     <>
       <section id="contact" className="contact-me qIYQfQ">
+        <div className="dashes-to-title">
+          <h2>Contact Me</h2>
+        </div>
+
         <form
           onSubmit={(e) => {
             e.preventDefault();
@@ -18,10 +23,6 @@ export default function ContactMe() {
             console.log(messageElement.current);
           }}
         >
-          <div className="dashes-to-title">
-            <h2>Contact Me</h2>
-          </div>
-
           <input
             type="text"
             ref={fullNameElement}
