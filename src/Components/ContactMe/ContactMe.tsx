@@ -18,7 +18,10 @@ export default function ContactMe() {
             console.log(messageElement.current);
           }}
         >
-          <h1>Contact Me</h1>
+          <div className="dashes-to-title">
+            <h2>Contact Me</h2>
+          </div>
+
           <input
             type="text"
             ref={fullNameElement}

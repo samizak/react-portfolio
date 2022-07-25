@@ -74,13 +74,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
+  align-items: center;
 }
 
 .home h1 {
   margin-bottom: 2rem;
   font-size: 36pt;
   color: var(--textColor);
+  font-weight: 600;
 }
 
 .home h2 {
@@ -96,6 +97,11 @@ body {
   font-size: 32pt;
   font-weight: normal;
   color: var(--textColor);
+}
+
+.home-buttons {
+  display: inline-flex;
+  gap: 30px;
 }
 
 .contact-me-button {

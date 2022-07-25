@@ -1,7 +1,12 @@
-// import ProjectCard from "./ProjectCard_old";
 import "./Project.css";
 import nft_portfolio_image from "../../Images/nft-portfolio-tracker-showcase.png";
+import opensea_nft_floor_price from "../../Images/opensea-nft-floor-price.png";
+import password_generator from "../../Images/password-generator.png";
+import todo_app from "../../Images/todo-app-showcase.png";
+import portfolio from "../../Images/portfolio.png";
+
 import ExternalLink from "../SVGs/ExternalLink";
+import Github from "../SVGs/Github";
 
 export default function Projects() {
   return (
@@ -20,14 +25,25 @@ export default function Projects() {
             </div>
 
             <div className="project-contents">
-              <h3>NFT Portfolio Tracker</h3>
+              <h3>
+                <a
+                  href="https://sz-nft-portfolio-tracker.herokuapp.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  NFT Portfolio Tracker
+                </a>
+              </h3>
               <p>
                 a React application that tracks the value of your NFT portfolio
-                and shows it both in Ethereum and in fiat currency.
+                and displays the total portfolio value in Ethereum and in fiat
+                currency.
               </p>
               <ul className="project-tech-list underline-tech-list">
                 <li>React</li>
                 <li>Typescript</li>
+                <li>HTML</li>
+                <li>CSS</li>
                 <li>NodeJS</li>
                 <li>Express</li>
                 <li>OpenSea API</li>
@@ -39,6 +55,255 @@ export default function Projects() {
               <div className="project-links">
                 <a
                   href="https://sz-nft-portfolio-tracker.herokuapp.com/"
+                  title="External Link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <ExternalLink />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-container">
+            <div className="project-image-container">
+              <div className="project-image-container-inner">
+                <img src={opensea_nft_floor_price} />
+              </div>
+            </div>
+
+            <div className="project-contents">
+              <h3>
+                <a
+                  href="https://sz-opensea-floor-price.herokuapp.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  OpenSea NFT Floor Price Tracker
+                </a>
+              </h3>
+              <p>
+                a React application that lets you retrieve the floor price of
+                the queried NFT on OpenSea
+              </p>
+              <ul className="project-tech-list underline-tech-list">
+                <li>React</li>
+                <li>Typescript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>NodeJS</li>
+                <li>Express</li>
+                <li>OpenSea API</li>
+                <li>Coingecko API</li>
+                <li>Puppeteer</li>
+                <li>Axios</li>
+                <li>Heroku</li>
+              </ul>
+
+              <div className="project-links">
+                <a
+                  href="https://sz-opensea-floor-price.herokuapp.com/"
+                  title="External Link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <ExternalLink />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-container project-portfolio">
+            <div className="project-image-container">
+              <div className="project-image-container-inner">
+                <img src={portfolio} />
+              </div>
+            </div>
+
+            <div className="project-contents">
+              <h3>
+                <a
+                  href="https://sz-react-password-generator.netlify.app/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  React Portfolio Website
+                </a>
+              </h3>
+              <p>My current Portfolio website</p>
+              <ul className="project-tech-list underline-tech-list">
+                <li>React</li>
+                <li>Typescript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Netlify</li>
+              </ul>
+
+              <div className="project-links">
+                <a
+                  href="https://github.com/samizak/react-password-generator"
+                  title="Github Link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <Github />
+                </a>
+
+                <a
+                  href="https://sz-react-password-generator.netlify.app/"
+                  title="External Link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <ExternalLink />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-container">
+            <div className="project-image-container">
+              <div className="project-image-container-inner">
+                <img src={""} />
+              </div>
+            </div>
+
+            <div className="project-contents">
+              <h3>
+                <a
+                  href="https://sz-short.herokuapp.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  URL Shortener Service
+                </a>
+              </h3>
+              <p>
+                A URL Shortener Service created using React, to shorten long
+                URLs
+              </p>
+              <ul className="project-tech-list underline-tech-list">
+                <li>React</li>
+                <li>Typescript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>NodeJS</li>
+                <li>Express</li>
+                <li>Mongoose</li>
+                <li>Heroku</li>
+              </ul>
+
+              <div className="project-links">
+                <a
+                  href="https://github.com/samizak/react-url-shortener"
+                  title="Github Link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <Github />
+                </a>
+
+                <a
+                  href="https://sz-short.herokuapp.com/"
+                  title="External Link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <ExternalLink />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-container">
+            <div className="project-image-container">
+              <div className="project-image-container-inner">
+                <img src={password_generator} />
+              </div>
+            </div>
+
+            <div className="project-contents">
+              <h3>
+                <a
+                  href="https://sz-react-password-generator.netlify.app/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Random Password Generator
+                </a>
+              </h3>
+              <p>
+                A URL Shortener Service created using React, to shorten long
+                URLs
+              </p>
+              <ul className="project-tech-list underline-tech-list">
+                <li>React</li>
+                <li>Typescript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Netlify</li>
+              </ul>
+
+              <div className="project-links">
+                <a
+                  href="https://github.com/samizak/react-password-generator"
+                  title="Github Link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <Github />
+                </a>
+
+                <a
+                  href="https://sz-react-password-generator.netlify.app/"
+                  title="External Link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <ExternalLink />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-container">
+            <div className="project-image-container">
+              <div className="project-image-container-inner">
+                <img src={todo_app} />
+              </div>
+            </div>
+
+            <div className="project-contents">
+              <h3>
+                <a
+                  href="https://sz-react-todo-app.netlify.app/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  To Do App
+                </a>
+              </h3>
+              <p>A To Do App created with React</p>
+              <ul className="project-tech-list underline-tech-list">
+                <li>React</li>
+                <li>Typescript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Netlify</li>
+              </ul>
+
+              <div className="project-links">
+                <a
+                  href="https://github.com/samizak/React-Todo-App"
+                  title="Github Link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <Github />
+                </a>
+
+                <a
+                  href="https://sz-react-todo-app.netlify.app/"
                   title="External Link"
                   rel="noopener noreferrer"
                   target="_blank"
