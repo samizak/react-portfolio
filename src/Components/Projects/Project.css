@@ -122,3 +122,23 @@
   width: 100%;
   visibility: visible;
 }
+
+.project-contents p.highlight {
+  color: var(--buttonColor);
+  font-size: large;
+}
+
+@media (max-width: 1000px) {
+  .project-image-container {
+    width: 350px;
+    height: 200px;
+  }
+
+  .project-grid .project-container {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, 200px);
+    grid-auto-flow: row;
+    align-items: center;
+    justify-content: left;
+  }
+}

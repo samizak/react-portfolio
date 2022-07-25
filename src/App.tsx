@@ -44,7 +44,9 @@ function App() {
       <FadeInSection>
         <section id="home" className="home qIYQfQ ">
           <div className="inner-home">
-            <h1>Hello World!</h1>
+            <h1>
+              Hello World<span className="wave">👋</span>!
+            </h1>
             <h2>I'm Sami Zakir Ahmed, a Full Stack Developer</h2>
 
             <div className="home-buttons">
