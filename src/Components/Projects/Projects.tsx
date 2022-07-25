@@ -35,12 +35,17 @@ export default function Projects() {
                 </a>
               </h3>
               <p>
-                A React application that tracks the value of your NFT portfolio
-                and displays the total portfolio value in Ethereum and in fiat
-                currency. The OpenSea API was used for fetching NFTs, Web3.js
-                was used for validating Ethereum addresses or Ethereum Name
-                Services (ENS) and the Coingecko API was used for fetching the
-                Ethereum price in different fiat currencies.
+                A React application, requested by a friend, that tracks the
+                value of your NFT portfolio and displays the total portfolio
+                value in Ethereum and in fiat currency.
+                <br></br>
+                <br></br>
+                <h2 className="highlight">Technology</h2>
+                This website uses NodeJS as backend to handling external APIs,
+                the OpenSea API was used for fetching NFTs, Web3.js was used for
+                validating Ethereum addresses or Ethereum Name Services (ENS)
+                and the Coingecko API was used for fetching the Ethereum price
+                in different fiat currencies.
                 <br></br>
                 <br></br>
                 <p className="highlight">
@@ -97,11 +102,15 @@ export default function Projects() {
               </h3>
               <p>
                 A React application that lets you retrieve the floor price of
-                the queried NFT on OpenSea. Puppeteer was used for scraping the
-                Floor NFT (The cheapest NFT for sale) on OpenSea, the OpenSea
-                API was used for fetching additional information about the NFT
-                and the Coingecko API was used for fetching the Ethereum price
-                in different fiat currencies.
+                the queried NFT on OpenSea.
+                <br></br>
+                <br></br>
+                <h2 className="highlight">Technology</h2>
+                Puppeteer was used for scraping the Floor NFT (
+                <span className="highlight">The cheapest NFT for sale</span>) on
+                OpenSea, the OpenSea API was used for fetching additional
+                information about the NFT and the Coingecko API was used for
+                fetching the Ethereum price in different fiat currencies.
                 <br></br>
                 <br></br>
                 <p className="highlight">
@@ -155,8 +164,12 @@ export default function Projects() {
               </h3>
               <p>
                 My current Portfolio website created in React using pure CSS and
-                HTML. The website was created purely using HTML, CSS and
-                Typescript, without the use of any additional packages.
+                HTML.
+                <br></br>
+                <br></br>
+                <h2 className="highlight">Technology</h2>
+                The website was created purely using HTML, CSS and Typescript,
+                without the use of any additional packages.
               </p>
               <ul className="project-tech-list underline-tech-list">
                 <li>React</li>

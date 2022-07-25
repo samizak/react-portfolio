@@ -13,7 +13,7 @@
 .project-grid .project-container {
   display: grid;
   gap: 3em;
-  grid-template-rows: repeat(auto-fill, 450px);
+  grid-template-rows: repeat(auto-fill, 600px);
   grid-auto-flow: column;
   align-items: center;
   justify-content: left;
@@ -123,8 +123,13 @@
   visibility: visible;
 }
 
-.project-contents p.highlight {
+.project-contents h2.highlight,
+p.highlight,
+span.highlight {
   color: var(--buttonColor);
+}
+
+.project-contents p.highlight {
   font-size: large;
 }
 
