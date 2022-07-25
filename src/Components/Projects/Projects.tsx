@@ -40,7 +40,8 @@ export default function Projects() {
                 value in Ethereum and in fiat currency.
                 <br></br>
                 <br></br>
-                <h2 className="highlight">Technology</h2>
+                <span className="highlight technology-title">Technology</span>
+                <br></br>
                 This website uses NodeJS as backend to handling external APIs,
                 the OpenSea API was used for fetching NFTs, Web3.js was used for
                 validating Ethereum addresses or Ethereum Name Services (ENS)
@@ -48,10 +49,10 @@ export default function Projects() {
                 in different fiat currencies.
                 <br></br>
                 <br></br>
-                <p className="highlight">
+                <span className="highlight">
                   This project is being used privately in the wild. Source code
                   and demos can be shown upon request!
-                </p>
+                </span>
               </p>
               <ul className="project-tech-list underline-tech-list">
                 <li>React</li>
@@ -105,7 +106,8 @@ export default function Projects() {
                 the queried NFT on OpenSea.
                 <br></br>
                 <br></br>
-                <h2 className="highlight">Technology</h2>
+                <span className="highlight technology-title">Technology</span>
+                <br></br>
                 Puppeteer was used for scraping the Floor NFT (
                 <span className="highlight">The cheapest NFT for sale</span>) on
                 OpenSea, the OpenSea API was used for fetching additional
@@ -113,10 +115,10 @@ export default function Projects() {
                 fetching the Ethereum price in different fiat currencies.
                 <br></br>
                 <br></br>
-                <p className="highlight">
+                <span className="highlight">
                   This project is being used privately in the wild. Source code
                   and demos can be shown upon request!
-                </p>
+                </span>
               </p>
               <ul className="project-tech-list underline-tech-list">
                 <li>React</li>
@@ -163,13 +165,14 @@ export default function Projects() {
                 </a>
               </h3>
               <p>
-                My current Portfolio website created in React using pure CSS and
-                HTML.
+                My current Portfolio website created in React.
                 <br></br>
                 <br></br>
-                <h2 className="highlight">Technology</h2>
+                <span className="highlight technology-title">Technology</span>
+                <br></br>
                 The website was created purely using HTML, CSS and Typescript,
-                without the use of any additional packages.
+                without the use of any additional packages. This website was
+                hosted on Netlify.
               </p>
               <ul className="project-tech-list underline-tech-list">
                 <li>React</li>

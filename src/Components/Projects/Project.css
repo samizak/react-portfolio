@@ -124,12 +124,20 @@
 }
 
 .project-contents h2.highlight,
-p.highlight,
 span.highlight {
   color: var(--buttonColor);
 }
 
+.technology-title {
+  font-weight: 600;
+  font-size: 25px !important;
+}
+
 .project-contents p.highlight {
+  font-size: large;
+}
+
+.project-contents span.highlight {
   font-size: large;
 }
 
