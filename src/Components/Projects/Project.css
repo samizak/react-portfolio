@@ -12,16 +12,15 @@
 
 .project-grid .project-container {
   display: grid;
-  gap: 3em;
-  grid-template-rows: repeat(auto-fill, 600px);
+  gap: 2em;
+  grid-template-rows: repeat(auto-fill, 500px);
   grid-auto-flow: column;
   align-items: center;
   justify-content: left;
-  row-gap: 20px;
 }
 
 .project-image-container {
-  width: 700px;
+  width: 600px;
   height: 400px;
   overflow: hidden;
 }
@@ -33,8 +32,14 @@
   border-radius: 10px;
 }
 
+.project-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .project-contents a {
-  font-size: 36px;
+  font-size: 24pt;
   transition: color 0.3s ease-in-out;
   text-decoration: none;
   color: white;
@@ -65,12 +70,6 @@
   color: var(--buttonColor);
 }
 
-.project-links {
-  display: flex;
-  justify-content: right;
-  align-items: center;
-}
-
 .project-links a:not(:last-child) {
   margin-right: 20px;
 }
@@ -84,6 +83,14 @@
 
 .project-links svg:hover {
   fill: var(--buttonColor);
+}
+
+#youtube-link path {
+  stroke: #ccd6f6;
+}
+
+#youtube-link:hover path {
+  stroke: var(--buttonColor);
 }
 
 .project-image-container {
@@ -130,7 +137,7 @@ span.highlight {
 
 .technology-title {
   font-weight: 600;
-  font-size: 25px !important;
+  font-size: 20pt !important;
 }
 
 .project-contents p.highlight {
@@ -140,6 +147,13 @@ span.highlight {
 .project-contents span.highlight {
   font-size: large;
 }
+
+/* @media (max-width: 1300px) {
+  .project-image-container {
+    width: 500px;
+    height: 300px;
+  }
+} */
 
 @media (max-width: 1000px) {
   .project-image-container {
