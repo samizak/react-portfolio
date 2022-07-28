@@ -1,0 +1,35 @@
+.about {
+  position: relative;
+  margin-top: 200px;
+  padding-top: 8rem;
+  color: var(--textColor);
+}
+
+.about-me-content {
+  margin-left: 150px;
+  margin-right: 150px;
+  transition: 500ms;
+}
+
+@media only screen and (max-width: 1000px) {
+  .about-me-content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.about p {
+  font-size: 20pt;
+}
+
+.home-social-links a:not(:first-child) {
+  flex: 1 1 auto;
+  margin: 20px;
+}
+.home-social-links path {
+  fill: white;
+}
+
+.home-social-links a:hover path {
+  fill: var(--buttonColor);
+}
