@@ -1,8 +1,10 @@
 import { useRef, useEffect, useState } from "react";
 import "./App.css";
+import AboutMe from "./Components/AboutMe/AboutMe";
 import ContactMe from "./Components/ContactMe/ContactMe";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
+import Home from "./Components/Home/Home";
 import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
 
@@ -36,43 +38,22 @@ function FadeInSection(props: any) {
 function App() {
   return (
     <>
-      {/* <div className="curve-container">
-        <div className="curve"></div>
-      </div> */}
       <Header />
 
       <FadeInSection>
-        <section id="home" className="home qIYQfQ ">
-          <div className="inner-home">
-            <h1>
-              Hello World<span className="wave">👋</span>!
-            </h1>
-            <h2>I'm Sami Zakir Ahmed, a Full Stack Software Engineer</h2>
-
-            <div className="home-buttons">
-              <a href="#contact" className="contact-me-button">
-                Resume
-              </a>
-              <a href="#contact" className="contact-me-button">
-                Contact Me
-              </a>
-            </div>
-          </div>
-        </section>
+        <Home />
       </FadeInSection>
 
       <FadeInSection>
-        <Projects />
-      </FadeInSection>
-
-      <FadeInSection>
-        <section id="about" className="qIYQfQ">
-          About Me
-        </section>
+        <AboutMe />
       </FadeInSection>
 
       <FadeInSection>
         <Skills />
+      </FadeInSection>
+
+      <FadeInSection>
+        <Projects />
       </FadeInSection>
 
       <FadeInSection>
