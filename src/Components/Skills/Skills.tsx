@@ -1,13 +1,13 @@
-import CSharp from "../SVGs/CSharp";
-import CSS3 from "../SVGs/CSS3";
-import Git from "../SVGs/Git";
-import HTML5 from "../SVGs/HTML5";
-import Java from "../SVGs/Java";
-import JavaScript from "../SVGs/JavaScript";
-import Python from "../SVGs/Python";
-import ReactJS from "../SVGs/ReactJS";
-import NodeJS from "../SVGs/NodeJS";
-import TypeScript from "../SVGs/TypeScript";
+// import CSharp from "../SVGs/CSharp";
+// import CSS3 from "../SVGs/CSS3";
+// import Git from "../SVGs/Git";
+// import HTML5 from "../SVGs/HTML5";
+// import Java from "../SVGs/Java";
+// import JavaScript from "../SVGs/JavaScript";
+// import Python from "../SVGs/Python";
+// import ReactJS from "../SVGs/ReactJS";
+// import NodeJS from "../SVGs/NodeJS";
+// import TypeScript from "../SVGs/TypeScript";
 import "./Skills.css";
 
 export default function Skills() {
@@ -19,69 +19,37 @@ export default function Skills() {
         </div>
 
         <div className="skills-container">
-          <div className="skills-inner">
-            <div className="skill-icon">
-              <CSharp />
-            </div>
-            <h4>c#</h4>
-          </div>
-          <div className="skills-inner">
-            <div className="skill-icon">
-              <NodeJS />
-            </div>
-
-            <h4>NodeJS</h4>
-          </div>
-          <div className="skills-inner">
-            <div className="skill-icon">
-              <TypeScript />
-            </div>
-            <h4>typescript</h4>
-          </div>
-          <div className="skills-inner">
-            <div className="skill-icon">
-              <JavaScript />
-            </div>
-            <h4>javascript</h4>
-          </div>
-          <div className="skills-inner">
-            <div className="skill-icon">
-              <CSS3 />
-            </div>
-            <h4>CSS3</h4>
-          </div>
-          <div className="skills-inner">
-            <div className="skill-icon">
-              <HTML5 />
-            </div>
-            <h4>HTML5</h4>
+          <div className="grid-item frontend-container">
+            <h3>Front-End Technology</h3>
+            <p>ReactJS</p>
+            <p>HTML5</p>
+            <p>CSS3</p>
+            <p>React Native</p>
+            <p>NPM</p>
+            <p>Yarn</p>
+            <p>Bootstrap</p>
+            <p>Material-UI</p>
+            <p>SCSS</p>
+            <p>SASS</p>
           </div>
 
-          <div className="skills-inner">
-            <div className="skill-icon">
-              <ReactJS />
-            </div>
-            <h4>ReactJS</h4>
-          </div>
-          <div className="skills-inner">
-            <div className="skill-icon">
-              <Python />
-            </div>
-            <h4>Python</h4>
+          <div className="grid-item backend-container">
+            <h3>Back-End Technology</h3>
+            <p>NodeJS</p>
+            <p>.NET</p>
+            <p>GraphQL</p>
+            <p>REST</p>
+            <p>PostgreSQL</p>
+            <p>MongoDB</p>
           </div>
 
-          <div className="skills-inner">
-            <div className="skill-icon">
-              <Git />
-            </div>
-            <h4>Git</h4>
-          </div>
-
-          <div className="skills-inner">
-            <div className="skill-icon">
-              <Java />
-            </div>
-            <h4>Java</h4>
+          <div className="grid-item language-container">
+            <h3>Languages</h3>
+            <p>JavaScript</p>
+            <p>TypeScript</p>
+            <p>C#</p>
+            <p>Java</p>
+            <p>Python</p>
           </div>
         </div>
       </section>
