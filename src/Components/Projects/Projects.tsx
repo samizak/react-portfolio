@@ -1,14 +1,14 @@
 import "./Project.css";
 import nft_portfolio_image from "../../Images/nft-portfolio-tracker-showcase.png";
 import opensea_nft_floor_price from "../../Images/opensea-nft-floor-price.png";
-import password_generator from "../../Images/password-generator.png";
-import todo_app from "../../Images/todo-app-showcase.png";
 import portfolio from "../../Images/portfolio.png";
 import url_shortener from "../../Images/url-shortener-showcase.png";
+import tradingview_discord_bot from "../../Images/tradingview_discord_bot.png";
 
 import ExternalLink from "../SVGs/ExternalLink";
 import Github from "../SVGs/Github";
 import Youtube from "../SVGs/Youtube";
+import OtherProjects from "./OtherProjects/OtherProjects";
 
 export default function Projects() {
   return (
@@ -166,61 +166,6 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className="project-container project-portfolio">
-            <div className="project-image-container">
-              <div className="project-image-container-inner">
-                <img src={portfolio} alt="React Portfolio Website" />
-              </div>
-            </div>
-
-            <div className="project-contents">
-              <div className="project-title">
-                <h3>
-                  <a href="" rel="noopener noreferrer" target="_blank">
-                    React Portfolio Website
-                  </a>
-                </h3>
-                <div className="project-links">
-                  <a
-                    href="https://github.com/samizak/react-portfolio"
-                    title="Github Link"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <Github />
-                  </a>
-
-                  <a
-                    href=""
-                    title="Visit Site"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <ExternalLink />
-                  </a>
-                </div>
-              </div>
-
-              <p>
-                My current Portfolio website created in React.
-                <br></br>
-                <br></br>
-                <span className="highlight technology-title">Technology</span>
-                <br></br>
-                The website was created purely using HTML, CSS and Typescript,
-                without the use of any additional packages. This website was
-                hosted on Netlify.
-              </p>
-              <ul className="project-tech-list underline-tech-list">
-                <li>React</li>
-                <li>Typescript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Netlify</li>
-              </ul>
-            </div>
-          </div>
-
           <div className="project-container">
             <div className="project-image-container">
               <div className="project-image-container-inner">
@@ -240,6 +185,14 @@ export default function Projects() {
                   </a>
                 </h3>
                 <div className="project-links">
+                  <a
+                    href="https://www.youtube.com/watch?v=4gcjXGn2mu0"
+                    title="Youtube Link"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <Youtube />
+                  </a>
                   <a
                     href="https://github.com/samizak/react-url-shortener"
                     title="Github Link"
@@ -283,27 +236,23 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className="project-container">
+          <div className="project-container project-portfolio">
             <div className="project-image-container">
               <div className="project-image-container-inner">
-                <img src={password_generator} alt="Random Password Generator" />
+                <img src={portfolio} alt="React Portfolio Website" />
               </div>
             </div>
 
             <div className="project-contents">
               <div className="project-title">
                 <h3>
-                  <a
-                    href="https://sz-opensea-floor-price.herokuapp.com/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    Random Password Generator
+                  <a href="#0" rel="noopener noreferrer" target="_blank">
+                    React Portfolio Website
                   </a>
                 </h3>
                 <div className="project-links">
                   <a
-                    href="https://github.com/samizak/react-password-generator"
+                    href="https://github.com/samizak/react-portfolio"
                     title="Github Link"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -312,7 +261,7 @@ export default function Projects() {
                   </a>
 
                   <a
-                    href="https://sz-react-password-generator.netlify.app/"
+                    href="#0"
                     title="Visit Site"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -323,8 +272,14 @@ export default function Projects() {
               </div>
 
               <p>
-                A password generator app that uses React with hooks to generate
-                secure, random passwords.
+                My current Portfolio website created in React.
+                <br></br>
+                <br></br>
+                <span className="highlight technology-title">Technology</span>
+                <br></br>
+                The website was created purely using HTML, CSS and Typescript,
+                without the use of any additional packages. This website was
+                hosted on Netlify.
               </p>
               <ul className="project-tech-list underline-tech-list">
                 <li>React</li>
@@ -339,7 +294,7 @@ export default function Projects() {
           <div className="project-container">
             <div className="project-image-container">
               <div className="project-image-container-inner">
-                <img src={todo_app} alt="To Do App" />
+                <img src={tradingview_discord_bot} alt="To Do App" />
               </div>
             </div>
 
@@ -351,44 +306,44 @@ export default function Projects() {
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    To Do App
+                    TradingView Discord Bot
                   </a>
                 </h3>
                 <div className="project-links">
                   <a
-                    href="https://github.com/samizak/React-Todo-App"
-                    title="Github Link"
+                    href="https://www.youtube.com/watch?v=VyUPQCh_T5o"
+                    title="Youtube Link"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <Github />
-                  </a>
-
-                  <a
-                    href="https://sz-react-todo-app.netlify.app/"
-                    title="Visit Site"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <ExternalLink />
+                    <Youtube />
                   </a>
                 </div>
               </div>
 
               <p>
-                A To Do App designed for staying organized with simplicity in
-                mind. The website was created with React using hooks.
+                A Discord bot that generates and returns charts by scraping
+                TradingView, written in Typescript and utilizing the Discord.js
+                module.
+                <br></br>
+                <br></br>
+                <span className="highlight">
+                  This project is being used privately in the wild. Source code
+                  and demos can be shown upon request!
+                </span>
               </p>
               <ul className="project-tech-list underline-tech-list">
-                <li>React</li>
+                <li>NodeJS</li>
                 <li>Typescript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Netlify</li>
+                <li>Puppeteer</li>
+                <li>Axios</li>
+                <li>DiscordJS</li>
               </ul>
             </div>
           </div>
         </div>
+
+        <OtherProjects />
       </section>
     </>
   );

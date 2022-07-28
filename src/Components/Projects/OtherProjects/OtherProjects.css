@@ -1,0 +1,88 @@
+.other-projects {
+  margin-top: 300px;
+}
+
+.other-projects h3 {
+  font-size: 22pt;
+  text-align: center;
+}
+
+.project-card-grid {
+  list-style: none;
+  padding: 0px;
+  margin: 50px 0px 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  row-gap: 30px;
+  column-gap: 30px;
+  position: relative;
+}
+
+.project-card {
+  height: 400px;
+  padding: 1rem;
+  position: relative;
+  transition: transform 300ms ease-in, box-shadow 300ms ease-in;
+  background-color: #112240;
+}
+
+.project-card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.3);
+}
+
+.project-card-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project-card-title a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease-in-out;
+  font-size: 18pt;
+}
+
+.project-card-title h3 {
+  margin-bottom: 20px;
+}
+
+.project-card-title a:hover {
+  color: var(--buttonColor);
+}
+
+.card-links {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: rows;
+}
+
+.multi-links {
+  flex-direction: column;
+}
+
+.project-links-inner {
+  display: inline-flex;
+  justify-content: right;
+}
+
+.project-links-inner h4 {
+  margin-right: 10px;
+  font-weight: 400;
+  transition: color 0.3s ease-in-out;
+}
+.project-links-inner h4:hover {
+  color: var(--buttonColor);
+}
+
+.hide-project-link-icon {
+  cursor: default;
+}
+.hide-project-link-icon path {
+  fill: transparent;
+}
