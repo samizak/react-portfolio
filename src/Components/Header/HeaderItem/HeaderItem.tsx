@@ -7,7 +7,7 @@ export default function HeaderItem(props: {
 }) {
   return (
     <>
-      {["home", "about", "projects", "skills", "contact"].map(
+      {["home", "about", "skills", "projects", "contact"].map(
         (item: string, index: number) => {
           return (
             <Fragment key={index}>
