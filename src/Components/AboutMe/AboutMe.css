@@ -19,12 +19,18 @@
 }
 
 .about p {
-  font-size: 20pt;
+  font-size: 14pt;
+  transition: 500ms ease-in-out;
 }
 
-.home-social-links a:not(:first-child) {
-  flex: 1 1 auto;
-  margin: 20px;
+@media only screen and (min-width: 768px) {
+  .about p {
+    font-size: 20pt;
+  }
+}
+
+.home-social-links a {
+  margin-right: 10px;
 }
 .home-social-links path {
   fill: white;
