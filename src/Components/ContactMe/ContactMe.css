@@ -3,67 +3,11 @@
   margin-top: 200px;
   padding-top: 8rem;
   color: var(--textColor);
+  margin-bottom: 200px;
 }
 
 .contact-me form {
   width: min(700px, 100%);
   margin-inline: auto;
-}
-
-.contact-me form h1 {
-  text-align: center;
-  font-size: 36pt;
-  margin-bottom: 20px;
-}
-
-form input,
-textarea {
-  font-size: 1em;
-}
-
-.eDrgDA {
-  width: 100%;
-  box-sizing: border-box;
-  border: 2px white;
-  padding: 0.8rem 1rem;
-  border-radius: 7px;
-  margin-bottom: 0.5rem;
-  transition: all 0.3s ease 0s;
-}
-
-.faEBBo {
-  width: 100%;
-  min-height: 200px;
-  box-sizing: border-box;
-  border: 2px solid white;
-  padding: 0.8rem 1rem;
-  border-radius: 7px;
-  margin-bottom: 0.5rem;
-  transition: all 0.3s ease 0s;
-  resize: none;
-}
-
-.button-div {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.frLzte {
-  cursor: pointer;
-  border-radius: 5px;
-  border: none;
-  appearance: none;
-  user-select: none;
-  background: none;
-  width: 150px;
-  height: 50px;
-  color: white;
-  border: 3px solid var(--buttonColor);
-  transition: all 0.35s;
-}
-
-.frLzte:hover {
-  background: var(--buttonColor);
-  color: black;
+  margin-top: 100px;
 }
