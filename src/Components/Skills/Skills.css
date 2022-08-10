@@ -17,14 +17,22 @@
   width: 100%;
 }
 
-.grid-item {
-  font-size: 18pt;
-  text-align: left;
-  line-height: 2;
-  font-weight: 500;
-}
-
 .grid-item h3 {
   color: var(--buttonColor);
   font-size: 22pt;
+  padding-bottom: 10px;
+}
+
+.grid-item {
+  font-size: 14pt;
+  text-align: left;
+  line-height: 1;
+  font-weight: 500;
+}
+
+@media (min-width: 900px) {
+  .grid-item {
+    line-height: 2;
+    font-size: 18pt;
+  }
 }
