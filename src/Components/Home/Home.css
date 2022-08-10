@@ -16,15 +16,21 @@
 
 .home h1 {
   margin-bottom: 2rem;
-  font-size: 36pt;
+  font-size: clamp(40px, 8vw, 80px);
   font-weight: 600;
 }
 
 .home h2 {
   margin-bottom: 2rem;
-  font-size: 34pt;
+  font-size: clamp(24px, 6vw, 30px);
   font-weight: normal;
   line-height: 1.1;
+}
+
+@media (max-width: 800px) {
+  .home h2 {
+    text-align: center;
+  }
 }
 
 .home-scroll-down {
