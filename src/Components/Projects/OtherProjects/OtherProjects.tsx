@@ -2,6 +2,7 @@ import "./OtherProjects.css";
 
 import ExternalLink from "../../SVGs/ExternalLink";
 import Github from "../../SVGs/Github";
+import Youtube from "../../SVGs/Youtube";
 
 export default function OtherProjects() {
   return (
@@ -14,7 +15,102 @@ export default function OtherProjects() {
             <div className="project-card-title ">
               <h3>
                 <a
-                  href="https://sz-opensea-floor-price.herokuapp.com/"
+                  href="https://www.youtube.com/watch?v=Q5ndaoKq1B8"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Ponzi Bot
+                </a>
+              </h3>
+            </div>
+
+            <p>
+              A sophisticated and versatile Discord bot that can fetch NFT
+              prices from OpenSea, convert currencies and cryptocurrencies,
+              retrieve stock and cryptocurrency prices in real-time, generate
+              charts of financial markets from TradingView and much more.
+              <br></br>
+              <br></br>
+              <span className="highlight">
+                This project is being used privately in the wild. Source code
+                will not be shown but further demos can be shown upon request!
+              </span>
+            </p>
+
+            <ul className="project-tech-list underline-tech-list">
+              <li>NodeJS</li>
+              <li>Typescript</li>
+              <li>Puppeteer</li>
+              <li>Axios</li>
+              <li>GraphQL</li>
+              <li>ChartJS</li>
+              <li>DiscordJS</li>
+              <li>Yahoo Finance API</li>
+              <li>OpenSea API</li>
+              <li>Coingecko API</li>
+              <li>Axios</li>
+            </ul>
+
+            <div className="card-links project-links">
+              <a
+                href="https://www.youtube.com/watch?v=Q5ndaoKq1B8"
+                title="Youtube Link"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Youtube />
+              </a>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <div className="project-card-title ">
+              <h3>
+                <a
+                  href="https://www.youtube.com/watch?v=ef_E_0BR4fg"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Currency and Crypto conversion Discord Bot
+                </a>
+              </h3>
+            </div>
+
+            <p>
+              A Discord bot that enables users to convert fiat currencies and
+              cryptocurrencies.
+              <br></br>
+              <br></br>
+              <span className="highlight">
+                This project is being used privately in the wild. Source code
+                and further demos can be shown upon request!
+              </span>
+            </p>
+
+            <ul className="project-tech-list underline-tech-list">
+              <li>NodeJS</li>
+              <li>Typescript</li>
+              <li>Axios</li>
+              <li>DiscordJS</li>
+            </ul>
+
+            <div className="card-links project-links">
+              <a
+                href="https://www.youtube.com/watch?v=ef_E_0BR4fg"
+                title="Youtube Link"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Youtube />
+              </a>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <div className="project-card-title ">
+              <h3>
+                <a
+                  href="https://sz-react-password-generator.netlify.app/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -61,7 +157,7 @@ export default function OtherProjects() {
             <div className="project-card-title ">
               <h3>
                 <a
-                  href="https://sz-opensea-floor-price.herokuapp.com/"
+                  href="https://sz-react-todo-app.netlify.app/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -85,7 +181,7 @@ export default function OtherProjects() {
 
             <div className="card-links project-links">
               <a
-                href="https://github.com/samizak/react-password-generator"
+                href="https://github.com/samizak/React-Todo-App"
                 title="Github Link"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -94,7 +190,7 @@ export default function OtherProjects() {
               </a>
 
               <a
-                href="https://sz-react-password-generator.netlify.app/"
+                href="https://sz-react-todo-app.netlify.app/"
                 title="Visit Site"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -108,7 +204,67 @@ export default function OtherProjects() {
             <div className="project-card-title ">
               <h3>
                 <a
-                  href="https://sz-opensea-floor-price.herokuapp.com/"
+                  href="https://sz-short.herokuapp.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  URL Shortener Service
+                </a>
+              </h3>
+            </div>
+
+            <p>
+              A URL shortener service designed in React, using React with the
+              MERN Stack, that uses hooks to shrink lengthy URLs.
+            </p>
+
+            <ul className="project-tech-list underline-tech-list">
+              <li>React</li>
+              <li>Typescript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap 5</li>
+              <li>NodeJS</li>
+              <li>Express</li>
+              <li>Mongoose</li>
+              <li>Heroku</li>
+            </ul>
+
+            <div className="card-links project-links">
+              <a
+                href="https://www.youtube.com/watch?v=4gcjXGn2mu0"
+                title="Youtube Link"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Youtube />
+              </a>
+
+              <a
+                href="https://github.com/samizak/react-url-shortener"
+                title="Github Link"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Github />
+              </a>
+
+              <a
+                href="https://sz-short.herokuapp.com/"
+                title="Visit Site"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <ExternalLink />
+              </a>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <div className="project-card-title ">
+              <h3>
+                <a
+                  href="https://github.com/samizak?tab=repositories&q=&type=public&language=c%23"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -168,10 +324,6 @@ export default function OtherProjects() {
               </div>
             </div>
           </div>
-
-          <div className="project-card">test</div>
-          <div className="project-card">test</div>
-          <div className="project-card">test</div>
         </div>
       </div>
     </>

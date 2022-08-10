@@ -1,5 +1,18 @@
 .other-projects {
-  margin-top: 300px;
+  margin-top: 50px;
+  transition: 300ms ease-in-out;
+}
+
+@media (min-width: 640px) {
+  .other-projects {
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .other-projects {
+    margin-top: 200px;
+  }
 }
 
 .other-projects h3 {
@@ -10,31 +23,43 @@
 .project-card-grid {
   list-style: none;
   padding: 0px;
-  margin: 50px 0px 0px;
+  margin: 20px 0px 0px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  row-gap: 30px;
-  column-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(auto, 1fr));
+  row-gap: 15px;
+  column-gap: 15px;
   position: relative;
 }
 
 .project-card {
-  height: 400px;
-  padding: 1rem;
+  height: 500px;
   position: relative;
   transition: transform 300ms ease-in, box-shadow 300ms ease-in;
   background-color: #112240;
+  padding: 20px;
 }
 
 .project-card:hover {
-  transform: translateY(-20px);
+  transform: translateY(-10px);
   box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.3);
 }
 
-.project-card-title {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+@media (min-width: 768px) {
+  .project-card-grid {
+    margin: 50px 0px 0px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    row-gap: 30px;
+    column-gap: 30px;
+  }
+
+  .project-card {
+    padding: 1rem;
+    padding: 30px;
+  }
+
+  .project-card:hover {
+    transform: translateY(-20px);
+  }
 }
 
 .project-card-title a {
@@ -60,6 +85,9 @@
   margin-bottom: 10px;
   display: flex;
   flex-direction: rows;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  z-index: 100;
 }
 
 .multi-links {
@@ -75,6 +103,7 @@
   margin-right: 10px;
   font-weight: 400;
   transition: color 0.3s ease-in-out;
+  font-size: 14pt;
 }
 .project-links-inner h4:hover {
   color: var(--buttonColor);
