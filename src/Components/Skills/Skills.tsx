@@ -1,13 +1,3 @@
-// import CSharp from "../SVGs/CSharp";
-// import CSS3 from "../SVGs/CSS3";
-// import Git from "../SVGs/Git";
-// import HTML5 from "../SVGs/HTML5";
-// import Java from "../SVGs/Java";
-// import JavaScript from "../SVGs/JavaScript";
-// import Python from "../SVGs/Python";
-// import ReactJS from "../SVGs/ReactJS";
-// import NodeJS from "../SVGs/NodeJS";
-// import TypeScript from "../SVGs/TypeScript";
 import "./Skills.css";
 
 export default function Skills() {
@@ -29,8 +19,9 @@ export default function Skills() {
             <p>Yarn</p>
             <p>Bootstrap</p>
             <p>Material-UI</p>
-            <p>SCSS</p>
-            <p>SASS</p>
+            <p>SCSS/SASS</p>
+            <p>CSS-in-JS</p>
+            <p>Tailwind CSS</p>
           </div>
 
           <div className="grid-item backend-container">
@@ -41,6 +32,8 @@ export default function Skills() {
             <p>REST</p>
             <p>PostgreSQL</p>
             <p>MongoDB</p>
+            <p>ExpressJS</p>
+            <p>Redis</p>
           </div>
 
           <div className="grid-item language-container">
