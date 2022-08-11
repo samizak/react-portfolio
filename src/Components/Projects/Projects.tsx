@@ -62,8 +62,8 @@ export default function Projects() {
                 <br></br>
                 <br></br>
                 <span className="highlight">
-                  This project is being used in the wild. Source code will not
-                  be shown but further demos can be shown upon request!
+                  This project is being used in the wild. Further demos can be
+                  shown upon request!
                 </span>
               </p>
               <ul className="project-tech-list underline-tech-list">
@@ -121,8 +121,8 @@ export default function Projects() {
                 <br></br>
                 <br></br>
                 <span className="highlight">
-                  This project is being used privately in the wild. Source code
-                  will not be shown but further demos can be shown upon request!
+                  This project is being used privately in the wild. Further
+                  demos can be shown upon request!
                 </span>
               </p>
               <ul className="project-tech-list underline-tech-list">
