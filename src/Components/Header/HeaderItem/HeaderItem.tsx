@@ -4,6 +4,7 @@ export default function HeaderItem(props: {
   isHeaderSelected: any;
   setIsHeaderSelected: any;
   default_selectedHeader: any;
+  setIsActive?: any;
 }) {
   return (
     <>
@@ -35,6 +36,8 @@ export default function HeaderItem(props: {
                       "--scroll-padding",
                       isVisible ? "0" : "20vh"
                     );
+
+                    props.setIsActive(false);
 
                     return props.setIsHeaderSelected({
                       ...props.default_selectedHeader,
