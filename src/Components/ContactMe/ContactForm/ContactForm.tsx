@@ -32,47 +32,6 @@ export default function ContactForm() {
     setValidated(true);
   };
 
-  //   return (
-  //     <>
-  //       <form
-  //         onSubmit={(e) => {
-  //           e.preventDefault();
-
-  //           console.log(fullNameElement.current);
-  //           console.log(emailElement.current);
-  //           console.log(subjectElement.current);
-  //           console.log(messageElement.current);
-  //         }}
-  //       >
-  //         <div className="inline-details">
-  //           <div className="input-container">
-  //             <input type="name" ref={fullNameElement} placeholder="Full Name*" />
-  //             <span className="underline-form" />
-  //           </div>
-
-  //           <div className="input-container">
-  //             <input type="email" ref={emailElement} placeholder="Email*" />
-  //             <span className="underline-form" />
-  //           </div>
-  //         </div>
-
-  //         <div className="input-container">
-  //           <input type="text" ref={subjectElement} placeholder="Subject*" />
-  //           <span className="underline-form" />
-  //         </div>
-
-  //         <div className="input-container">
-  //           <textarea ref={messageElement} placeholder="Message*" />
-  //           <span className="underline-form" />
-  //         </div>
-
-  //         <div className="button-div">
-  //           <input type="submit" value="Submit" />
-  //         </div>
-  //       </form>
-  //     </>
-  //   );
-
   return (
     <>
       <Form noValidate validated={validated} onSubmit={handleSubmit}>
