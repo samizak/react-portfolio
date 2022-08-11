@@ -115,3 +115,36 @@
 .hide-project-link-icon path {
   fill: transparent;
 }
+
+.more-projects {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.more-projects-button {
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  appearance: none;
+  user-select: none;
+  background: none;
+  text-decoration: none;
+  height: auto;
+  width: auto;
+  padding-inline: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  border: 3px solid var(--buttonColor);
+  transition: all 0.35s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more-projects-button:hover {
+  background: var(--buttonColor);
+  color: black;
+}
