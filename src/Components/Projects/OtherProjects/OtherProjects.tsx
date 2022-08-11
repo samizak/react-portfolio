@@ -32,8 +32,8 @@ export default function OtherProjects() {
               <br></br>
               <br></br>
               <span className="highlight">
-                This project is being used privately in the wild. Source code
-                will not be shown but further demos can be shown upon request!
+                This project is being used privately in the wild. Further demos
+                can be shown upon request!
               </span>
             </p>
 
@@ -324,6 +324,17 @@ export default function OtherProjects() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="more-projects">
+          <a
+            className="more-projects-button"
+            href="https://github.com/samizak"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            View More Projects
+          </a>
         </div>
       </div>
     </>
