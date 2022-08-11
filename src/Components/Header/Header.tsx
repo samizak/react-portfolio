@@ -28,8 +28,8 @@ export default function Header() {
 
   return (
     <>
-      <header className={stickyNavbar ? " navbar-sticky" : ""}>
-        <div className="qIYQfQ">
+      <header className={stickyNavbar ? "navbar-sticky" : ""}>
+        <div className="qIYQfQ" tabIndex={0} onBlur={() => setIsActive(false)}>
           <Name />
           <ul className="header-list">
             <HeaderItem
@@ -53,6 +53,7 @@ export default function Header() {
                 isHeaderSelected={isHeaderSelected}
                 setIsHeaderSelected={setIsHeaderSelected}
                 default_selectedHeader={default_selectedHeader}
+                setIsActive={setIsActive}
               />
             </ul>
           </div>
