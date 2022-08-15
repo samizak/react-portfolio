@@ -20,7 +20,6 @@ export default function AboutMe() {
 
           <br></br>
           <p>GET IN TOUCH</p>
-          <br></br>
           <div className="home-social-links">
             <a
               href="https://github.com/samizak"
@@ -51,7 +50,11 @@ export default function AboutMe() {
               </svg>
             </a>
 
-            <a href="mailto:changeme" rel="noopener noreferrer" target="_blank">
+            <a
+              href="mailto:samizak1864@gmail.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <Email style={{ height: "45px", width: "45px" }} />
             </a>
           </div>
