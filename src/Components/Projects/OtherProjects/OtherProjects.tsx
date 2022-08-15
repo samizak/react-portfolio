@@ -329,7 +329,7 @@ export default function OtherProjects() {
         <div className="more-projects">
           <a
             className="more-projects-button"
-            href="https://github.com/samizak"
+            href="https://github.com/samizak?tab=repositories"
             rel="noopener noreferrer"
             target="_blank"
           >
