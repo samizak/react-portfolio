@@ -37,7 +37,7 @@ export default function HeaderItem(props: {
                       isVisible ? "0" : "20vh"
                     );
 
-                    props.setIsActive(false);
+                    if (props.setIsActive) props.setIsActive(false);
 
                     return props.setIsHeaderSelected({
                       ...props.default_selectedHeader,
