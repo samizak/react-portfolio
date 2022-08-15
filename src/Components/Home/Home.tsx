@@ -15,9 +15,6 @@ export default function Home() {
 
           <div className="home-buttons">
             <a href="#contact" className="home-button">
-              Resume
-            </a>
-            <a href="#contact" className="home-button">
               Contact Me
             </a>
           </div>
