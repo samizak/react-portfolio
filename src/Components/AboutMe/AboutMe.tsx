@@ -36,7 +36,7 @@ export default function AboutMe() {
               </svg>
             </a>
             <a
-              href="https://linkedin.com/changeme"
+              href="https://www.linkedin.com/in/sami-zakir-ahmed-171225249/"
               rel="noopener noreferrer"
               target="_blank"
             >
