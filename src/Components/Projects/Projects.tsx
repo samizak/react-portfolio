@@ -94,7 +94,7 @@ export default function Projects() {
               <div className="project-title">
                 <h3>
                   <a
-                    href="https://sz-react-todo-app.netlify.app/"
+                    href="https://www.youtube.com/watch?v=VyUPQCh_T5o"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
