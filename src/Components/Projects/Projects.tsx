@@ -1,7 +1,7 @@
 import "./Project.css";
 import nft_portfolio_image from "../../Images/nft-portfolio-tracker-showcase.png";
-import opensea_nft_floor_price from "../../Images/opensea-nft-floor-price.png";
-import portfolio from "../../Images/portfolio.png";
+import ecommerce_site from "../../Images/ecommerce-site-showcase.jpg";
+import blog_site from "../../Images/blog-showcase.jpg";
 import tradingview_discord_bot from "../../Images/tradingview_discord_bot.png";
 
 import ExternalLink from "../SVGs/ExternalLink";
@@ -28,11 +28,7 @@ export default function Projects() {
             <div className="project-contents">
               <div className="project-title">
                 <h3>
-                  <a
-                    href="https://www.nftportfolio.app/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
+                  <a href="https://www.nftportfolio.app/" rel="noopener noreferrer" target="_blank">
                     NFT Portfolio Tracker
                   </a>
                 </h3>
@@ -45,25 +41,18 @@ export default function Projects() {
                   >
                     <Youtube />
                   </a>
-                  <a
-                    href="https://www.nftportfolio.app/"
-                    title="Visit Site"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
+                  <a href="https://www.nftportfolio.app/" title="Visit Site" rel="noopener noreferrer" target="_blank">
                     <ExternalLink />
                   </a>
                 </div>
               </div>
               <p>
-                A React application, requested by a client, that tracks the
-                value of your NFT portfolio and displays the total portfolio
-                value in Ethereum and in fiat currency.
+                A React application, requested by a client, that tracks the value of your NFT portfolio and displays the
+                total portfolio value in Ethereum and in fiat currency.
                 <br></br>
                 <br></br>
                 <span className="highlight">
-                  This project is being used in the wild. Further demos can be
-                  shown upon request!
+                  This project is being used in the wild. Further demos can be shown upon request!
                 </span>
               </p>
               <ul className="project-tech-list underline-tech-list">
@@ -93,12 +82,8 @@ export default function Projects() {
             <div className="project-contents">
               <div className="project-title">
                 <h3>
-                  <a
-                    href="https://www.youtube.com/watch?v=VyUPQCh_T5o"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    TradingView Discord Bot
+                  <a href="https://www.youtube.com/watch?v=VyUPQCh_T5o" rel="noopener noreferrer" target="_blank">
+                    Finance Discord Bot
                   </a>
                 </h3>
                 <div className="project-links">
@@ -114,15 +99,13 @@ export default function Projects() {
               </div>
 
               <p>
-                A Discord bot that generates and returns charts from
-                TradingView. This bot also offers advanced features such as
-                measuring performance of two or more securities across various
-                time frames.
+                A sophisticated and versatile Discord bot which includes 10+ commands and features, including fetching
+                NFT prices from OpenSea, converting currencies and cryptocurrencies, retrieving stock and cryptocurrency
+                prices in real-time, generating charts of financial markets from TradingView and much more.
                 <br></br>
                 <br></br>
                 <span className="highlight">
-                  This project is being used privately in the wild. Further
-                  demos can be shown upon request!
+                  This project is being used privately in the wild. Further demos can be shown upon request!
                 </span>
               </p>
               <ul className="project-tech-list underline-tech-list">
@@ -130,7 +113,13 @@ export default function Projects() {
                 <li>Typescript</li>
                 <li>Puppeteer</li>
                 <li>Axios</li>
+                <li>GraphQL</li>
+                <li>ChartJS</li>
                 <li>DiscordJS</li>
+                <li>Yahoo Finance API</li>
+                <li>OpenSea API</li>
+                <li>Coingecko API</li>
+                <li>Axios</li>
               </ul>
             </div>
           </div>
@@ -138,35 +127,28 @@ export default function Projects() {
           <div className="project-container">
             <div className="project-image-container">
               <div className="project-image-container-inner">
-                <img
-                  src={opensea_nft_floor_price}
-                  alt="OpenSea NFT Floor Price Tracker"
-                />
+                <img src={ecommerce_site} alt="Fullstack E-Commerce Store" width={600} height={400} />
               </div>
             </div>
 
             <div className="project-contents">
               <div className="project-title">
                 <h3>
-                  <a
-                    href="https://sz-opensea-floor-price.herokuapp.com/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    OpenSea NFT Floor Price Tracker
+                  <a href="https://sz-opensea-floor-price.herokuapp.com/" rel="noopener noreferrer" target="_blank">
+                    Fullstack Ecommerce Store
                   </a>
                 </h3>
                 <div className="project-links">
                   <a
-                    href="https://www.youtube.com/watch?v=Gsh5KQ8EaeU"
-                    title="Youtube Link"
+                    href="https://github.com/samizak/E-Commerce-Store"
+                    title="Github Link"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <Youtube />
+                    <Github />
                   </a>
                   <a
-                    href="https://sz-opensea-floor-price.herokuapp.com/"
+                    href="https://e-commerce-store-wa71.vercel.app/"
                     title="Visit Site"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -177,40 +159,28 @@ export default function Projects() {
               </div>
 
               <p>
-                A React application that lets you retrieve the floor price of
-                the queried NFT (
-                <span className="highlight">
-                  The cheapest NFT for sale for an NFT Collection
-                </span>
-                ) on OpenSea. This app also comes with a discord bot that
-                retrieves and displays the floor price of the queried NFT.
+                A fullstack E-Commerce Store created with NextJS, React, TailwindCSS and Headless UI.
                 <br></br>
                 <br></br>
-                <span className="highlight">
-                  Source code can be shown upon request!
-                </span>
               </p>
               <ul className="project-tech-list underline-tech-list">
+                <li>TypeScript</li>
+                <li>NextJS</li>
                 <li>React</li>
-                <li>Typescript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>NodeJS</li>
-                <li>Express</li>
-                <li>OpenSea API</li>
-                <li>Coingecko API</li>
-                <li>Puppeteer</li>
+                <li>Tailwind CSS</li>
+                <li>MySQL</li>
                 <li>Axios</li>
-                <li>Heroku</li>
-                <li>DiscordJS</li>
+                <li>Headless UI</li>
+                <li>React Hot Toast</li>
+                <li>Lucide React</li>
               </ul>
             </div>
           </div>
 
-          <div className="project-container project-portfolio">
+          <div className="project-container">
             <div className="project-image-container">
               <div className="project-image-container-inner">
-                <img src={portfolio} alt="React Portfolio Website" />
+                <img src={blog_site} alt="Fullstack Blog" />
               </div>
             </div>
 
@@ -218,43 +188,38 @@ export default function Projects() {
               <div className="project-title">
                 <h3>
                   <a href="#0" rel="noopener noreferrer" target="_blank">
-                    React Portfolio Website
+                    Fullstack Blog
                   </a>
                 </h3>
                 <div className="project-links">
                   <a
-                    href="https://github.com/samizak/react-portfolio"
+                    href="https://github.com/samizak/Blog-Client"
                     title="Github Link"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
                     <Github />
                   </a>
-
-                  <a
-                    href="#0"
-                    title="Visit Site"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <ExternalLink />
-                  </a>
                 </div>
               </div>
 
               <p>
-                My current Portfolio website (this website) created in React,
-                hosted on netlify.
+                A fullstack Blog site which includes two intuitive front-end applications, a client blog site and a
+                custom Admin CMS with rich text editor for formatting blog posts.
                 <br></br>
                 <br></br>
               </p>
               <ul className="project-tech-list underline-tech-list">
+                <li>NextJS</li>
                 <li>React</li>
-                <li>Typescript</li>
+                <li>TypeScript</li>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>Bootstrap 5</li>
-                <li>Netlify</li>
+                <li>Tailwind CSS</li>
+                <li>MongoDB</li>
+                <li>PassportJS</li>
+                <li>JWT</li>
+                <li>Bcrypt</li>
               </ul>
             </div>
           </div>
