@@ -6,11 +6,10 @@ export default function Home() {
       <section id="home" className="home qIYQfQ ">
         <div className="inner-home">
           <h1>
-            Hello World<span className="wave">👋</span>!
+            Hello World<span className="wave">👋</span>
           </h1>
           <h2>
-            I'm <span className="name">Sami Zakir Ahmed</span>, a Full Stack
-            Software Engineer
+            I'm <span className="name">Sami Zakir Ahmed</span>, a Full Stack Software Engineer
           </h2>
 
           <div className="home-buttons">
